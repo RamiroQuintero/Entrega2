@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    padding-right: 400px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 1.5em;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: brown;
+    border: 2px solid white;
+    padding: 1.2rem;
+    transition: all 1s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+} 
+
+.imgMain{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title__main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.box__title{
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+}
+
+.box__subtitle{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+.box__info{
+    padding: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3EFCC;
+}
+
+.footer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 10px;
+}
